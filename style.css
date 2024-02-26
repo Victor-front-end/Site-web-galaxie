@@ -7,24 +7,106 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url(digital-universe-galaxy-1920x1080.jpg);
+}
+
 .Boitelogo {
+    box-shadow: 0px 5px 20px 0px #5100ff;
     font-family: "Roboto Condensed", sans-serif;
 
 }
+
 .Facebook {
     background-color: transparent;
     box-shadow: 0px 5px 9px 2px rgba(9, 9, 9, 0.746);
     cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+.Facebook:hover {
+    transition-duration: 0.8s;
+    box-shadow: 0px 5px 9px 2px #5100ff;
 }
 
 .Twitter {
     background-color: transparent;
+    box-shadow: 0px 5px 9px 2px #000000;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+.Twitter:hover {
+    transition-duration: 0.8s;
+    box-shadow: 0px 5px 9px 2px #5100ff;
+}
+
+.tiktok {
+    transition-duration: 0.8s;
+    background-color: transparent;
     box-shadow: 0px 5px 9px 2px rgba(9, 9, 9, 0.746);
     cursor: pointer;
 }
 
-.tiktok {
-    background-color: transparent;
-    box-shadow: 0px 5px 9px 2px rgba(9, 9, 9, 0.746);
-    cursor: pointer;
+.tiktok:hover {
+    transition-duration: 0.8s;
+    box-shadow: 0px 5px 9px 2px #5100ff;
+}
+
+
+.nav-items {
+
+    transition-duration: 0.8s;
+}
+
+.nav-items:hover {
+    transition: 0.8s;
+    transition-duration: 0.8s;
+    color: gray;
+}
+
+.firstTitlle {
+    box-shadow: 0 0 7px 6px #b400b7;
+    border-radius: 30px;
+    animation: Glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes Glow {
+    from {
+        box-shadow:
+            0 0 7px 6px #005295c8,
+            0 0 7px 6px #005c95c8,
+            0 0 7px 6px #005e95c8,
+            0 0 7px 6px #0068b7,
+            0 0 7px 6px #b400b7,
+            0 0 7px 6px #b400b7,
+            0 0 7px 6px #b400b7,
+            0 0 7px 6px #b400b7,
+    }
+
+    to {
+        box-shadow:
+            0 0 7px 6px #00b7a8,
+            0 0 7px 6px #00b7a8,
+            0 0 7px 6px #0068b7;
+
+    }
+
+
+}
+
+.sous-tittle {
+    font-family: "Roboto Condensed", sans-serif;
+    text-shadow: black 2px 3px 2px;
+}
+
+.Date {
+    font-family: "Roboto Condensed", sans-serif;
+    text-shadow: 0 0 5px #430070;
+}
+
+.Time-items {
+    font-family: "Roboto Condensed", sans-serif;
+    background-image: linear-gradient(rgb(29, 0, 109), rgb(48, 0, 82), rgb(75, 9, 75));
+    letter-spacing: 1.5px;
 }
