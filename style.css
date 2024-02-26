@@ -8,7 +8,8 @@
 }
 
 body {
-    background: url(digital-universe-galaxy-1920x1080.jpg);
+    background: url(digital-universe-galaxy-1920x1080.jpg) no-repeat;
+    background-size: cover;
 }
 
 .Boitelogo {
@@ -109,4 +110,8 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     background-image: linear-gradient(rgb(29, 0, 109), rgb(48, 0, 82), rgb(75, 9, 75));
     letter-spacing: 1.5px;
+}
+
+.STAGE-ONE {
+    box-shadow: 0 0 7px 6px #b400b7;
 }
