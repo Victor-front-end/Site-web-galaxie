@@ -108,10 +108,22 @@ body {
 
 .Time-items {
     font-family: "Roboto Condensed", sans-serif;
-    background-image: linear-gradient(rgb(29, 0, 109), rgb(48, 0, 82), rgb(75, 9, 75));
+    background-image: linear-gradient(rgb(55, 4, 195), rgb(88, 0, 151), rgb(140, 21, 140));
     letter-spacing: 1.5px;
 }
 
 .STAGE-ONE {
     box-shadow: 0 0 7px 6px #b400b7;
+}
+
+.Date-Stage {
+    text-shadow: 0 0 5px #430070;
+}
+
+.Contenair-Boite1-2 {
+    background: linear-gradient(90deg, #430070, black, rgb(29, 0, 109));
+}
+
+.Date-Stage-two {
+    text-shadow: 0 0 5px #430070;
 }
