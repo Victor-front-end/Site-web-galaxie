@@ -127,3 +127,13 @@ body {
 .Date-Stage-two {
     text-shadow: 0 0 5px #430070;
 }
+
+.second-tittle-box {
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: -20px 6px 20px 0px #7a89dbce;
+}
+
+.boite1 {
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 20px 6px 20px 0px#7a89dbce;
+}
